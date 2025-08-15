@@ -1,0 +1,14 @@
+.landing-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+    position:fixed;
+    top: 0;
+}
+
+.logo1 img {
+    height: 50px;
+    width: auto;
+}
