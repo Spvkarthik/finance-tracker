@@ -71,9 +71,11 @@ export default function AboutUs() {
                 .services-section { flex-direction: column; align-items: center; text-align: center; }
                 .services-section h1 { margin-bottom: 40px; font-size: 2.5rem; }
                 .services { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; }
-                .s1 { width: 280px; padding: 20px; border-radius: 8px; }
+                .s1 { width: 280px; padding: 20px; border-radius: 8px ; border:1px solid black ;  box-shadow: 5px 5px #80dceaff; transition:transform .2s;}
                 .s1 h4 { margin-bottom: 10px; }
-                .s1 p { }
+                .s1:hover{
+                    transform: scale(1.1);
+                }
                 @media (max-width: 768px) {
                     .aboutus { flex-direction: column; text-align: center; padding: 40px 20px; }
                     .about-left, .about-right { width: 100%; }
